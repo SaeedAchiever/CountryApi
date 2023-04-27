@@ -1,0 +1,255 @@
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+api_body{
+  background-color: white;
+}
+.api_container{
+  text-align: center;
+  justify-content: center;
+  max-width: 100%;
+  height:100vh;
+}
+.api_container .api_head{
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: inline-flex;
+}
+.api_container .api_head input {
+  margin: 5px;
+  width: 75%;
+  height: 40px;
+  font-family: Sans-Serif;
+  font-size: 16px;
+  color:#fff ;
+  background: #111;
+  font-weight: 400;
+  outline: none;
+  border: 2px solid #000;
+  border-radius: 7px;
+}
+.api_container .api_head button{
+ width: 15%;
+ font-family: Sans-Serif;
+ font-size: 30px;
+ background: none;
+ border: none;
+ outline: none;
+ color: #e3fd34;
+ text-shadow: 2px 2px green;
+ font-weight: 200;
+}
+
+.api_body{
+  width: 100%;
+  height: fit-content;
+}
+.api_body h1{
+  color: #68f99f;
+  font-size: 40px;
+  font-family: Sans-Serif;
+  font-weight: 600;
+  text-shadow: -2px 2px green;
+}
+.api_body #capital_city{
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #333;
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 0px 0px #000;
+  font-family: Sans-Serif;
+}
+.api_body #capital_city::before{
+ content: "< "; 
+}
+.api_body #capital_city::after{
+ content: " />"; 
+}
+.api_body_container{
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.api_body_container .country_head h3{
+  color: #888;
+  display: block
+  text-transform: capitalize;
+  font-size: 25px;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-left: 10px;
+}
+.api_body_container .country_head img{
+ width: 60px;
+ border-radius: 10px;
+ height: auto;
+ margin-left: 7px;
+}
+.api_body_container .image img{
+  width: 150px;
+  height: 90px;
+  margin-right: 7px;
+}
+
+
+.weather {
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  line-height: 45px;
+}
+.weather h3{
+  color: #59d1f5;
+  font-size: 35px;
+  text-transform: capitalize;
+  font-family: Poppins;
+  font-weight: 700;
+  text-shadow: 1px 2px #000;
+}
+.weather .image img{
+ width: 140px; 
+}
+.weather .country p{
+  font-size: 25px;
+  color: #43433f;
+  font-weight: 600;
+}
+.weather .country h2{
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #b76ff1;
+  text-shadow: -2px -2px #f1f16f;
+  font-weight: 600;
+}
+.weather .country span {
+  display: block;
+  font-size: 20px;
+  color: #f1f16f;
+  text-shadow: 2px -2px #b76ff1;
+}
+.weather .country span::before {
+  content: "< ";
+}
+.weather .country span::after {
+  content: " />";
+}
+
+
+h5{
+  color: #b4f559;
+  text-shadow: 2px 2px #12130f;
+  font-family: Poppins;
+  font-weight: 500;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+
+.hero{
+  margin-top: 20px;
+  width: 100%;
+  clear: both;
+ text-align: center;
+ justify-content: space-between;
+}
+.humidity, .wind{
+ width: 40%;
+ display: flex;
+ line-height: 20px;
+ margin-bottom: 20px;
+}
+.humidity{
+ float: right; 
+ margin-right: 20px;
+}
+.wind{
+ margin-left: 10px; 
+}
+.hero img{
+ width: 50px; 
+ height: 50px;
+ border-radius: 50%;
+}
+.hero p{
+ margin: 8px;
+ font-size: 15px;
+ color: #555;
+ font-weight: 500;
+ font-family: Poppins;
+}
+.hero span {
+  display: block;
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 700;
+  color: #666;
+  text-transform: capitalize;
+}
+.hero h4{
+ font-size: 18px;
+ color: #c6edd5;
+ text-shadow: -2px -2px #000;
+ font-family: Sans-Serif;
+ font-weight: 500;
+ text-transform: capitalize;
+}
+
+.other_info{
+ width: 100%;
+ height: auto;
+ text-align: left;
+}
+.main_info h4{
+  margin: 20px 10px;
+ font-size: 18px;
+ text-transform: uppercase;
+ font-family: Poppins;
+ font-weight: 800;
+ text-shadow: 2px 2px #d9d187 ;
+}
+.main_info span{
+  color: #d987cf;
+ font-size: 22px;
+ text-transform: capitalize;
+ font-family: Poppins;
+ font-weight: 800
+}
+
+
+.other_info h3{
+  text-align: center;
+ text-transform: uppercase;
+ font-size: 22px;
+ font-family: Sans-Serif;
+ font-weight: 600;
+ color: #ced987;
+ text-shadow: 2px -2px #000;
+}
+
+.darkMode{
+ position: fixed;
+ bottom: 10px;
+ right: 10px;
+ width: 50px;
+ height: auto;
+}
+.darkMode button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.darkMode img{
+ width: 30px;
+ height: 30px;
+}
+#hide-all{
+  display: none;
+}
